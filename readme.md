@@ -3,8 +3,7 @@ This project was created for learn this things:
 2) try to practice my own knowledge in OOP paradigm
 3) work with images
 4) work with directories and parsing
-5) linter flate8
-6) typifier mypy
+5) linter flake8
 
 This neural network decides the task of determining the number in the image size 28x28
 dataset from kaggle(with changed direcrories): https://www.kaggle.com/datasets/scolianni/mnistasjpg?select=testSet

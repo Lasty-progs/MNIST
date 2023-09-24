@@ -6,7 +6,7 @@ timer = tools.Timer()
 timer.start()
 
 
-debug = True # choose smaller or full dataset
+debug = True  # choose smaller or full dataset
 
 # training sample - 600 images
 # test sample - 350 images
@@ -34,7 +34,7 @@ network.train(trainData.data, trainData.labels, 101, 0.0001, True)
 # find and load test images
 testData = tools.testData(testFilesPath)
 testData.load()
-testData.make_dirs() # create directories for sorted images
+testData.make_dirs()  # create directories for sorted images
 
 network.predict(testData)
 
