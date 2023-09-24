@@ -11,6 +11,7 @@ dataset from kaggle(with changed direcrories): https://www.kaggle.com/datasets/s
 to_numpy func from habr: https://habr.com/ru/articles/545850/
 
 project tree file:
+```bash
 .
 ├── data
 │   ├── testSample
@@ -25,6 +26,7 @@ project tree file:
 ├── readme.md
 ├── req.txt
 └── tools.py
+```
 and results folder will created by programm
 
 How to use (commands for linux users):
