@@ -5,7 +5,6 @@ timer = tools.Timer()
 # start counting the time spent by the program
 timer.start()
 
-
 debug = True  # choose smaller or full dataset
 
 # training sample - 600 images
