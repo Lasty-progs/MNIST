@@ -1,10 +1,5 @@
 import tools
 
-timer = tools.Timer()
-
-# start counting the time spent by the program
-timer.start()
-
 debug = True  # choose smaller or full dataset
 
 # training sample - 600 images
@@ -36,6 +31,3 @@ testData.load()
 testData.make_dirs()  # create directories for sorted images
 
 network.predict(testData)
-
-timer.stop()
-timer.show()

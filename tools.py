@@ -1,27 +1,7 @@
 import numpy
 from PIL import Image, ImageOps
 import pathlib
-import time
 import os
-
-
-class Timer:
-    '''A class for calculating the time spent on parts of the program'''
-    def __init__(self):
-        self.st = 0
-        self.times = []
-
-    def start(self):
-        '''start calculating time'''
-        self.st = time.time()
-
-    def stop(self):
-        '''save the elapsed time from the start'''
-        self.times.append(time.time() - self.st)
-
-    def show(self, index=-1):
-        '''show chosed saved time(default = last)'''
-        print(self.times[index])
 
 
 class Data:
